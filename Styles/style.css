@@ -53,5 +53,29 @@
 
 .primary-btn{
     background-color: #E55473;
-    color: #fff;  
+    color: #fff;
+    padding: 15px 40px;
+    border:none;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Hero Section Styles */
+.hero-section{
+    padding: 100px 0;
+    background-color: #FCEEF1;
+}
+
+.hero-wrap{
+    display: flex;
+    max-width: 1160px;
+    margin: 0 auto;
+    max-height: 500px;
+}
+.left-col{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 10px;
 }
