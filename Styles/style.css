@@ -184,3 +184,37 @@
     margin-bottom: 10px;
     
 }
+
+/* Hot Deal Offer Section Styles */
+
+.offer{
+    padding: 50px 0;
+    background-color: rgba(229, 84, 115, 0.05);
+}
+
+.offer-wrap{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.offer-wrap > .left-col{
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+
+}
+.offer-wrap img{
+    width: 300px;
+}
+
+.offer-wrap span{
+    color:#E55473
+}
+
