@@ -21,7 +21,7 @@
 }
 
 .text-color{
-    color: #272727;
+    color: rgba(39, 39, 39, 0.7);
 }
 
 .white{
@@ -110,7 +110,7 @@
     text-align: center;
 }
 
-.featured-flowers h2,p{
+.featured-flowers>h2,.featured-flowers>p{
     width: 60%;
     margin: 0 auto;
 }
@@ -234,7 +234,8 @@
 }
 
 .instagram-reel p{
-    margin-bottom: 50px;
+    width: 60%;
+    margin: 0 auto 50px;
 }
 
 .instagram-images{
@@ -249,6 +250,67 @@
     border-radius: 8px;
 }
 
+/* blog Section Styles */
+
+.blog-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 30px 0;
+    text-align: center;
+}
+
+.blog-section > p{
+    margin-bottom: 50px;
+    width: 700px
+}
+.blog-item-wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 1200px;
+}
+
+
+.blog-item{
+    width: 320px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #FCEEF1;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.356) 0px 0px 30px 5px;
+}
+
+.blog-item h3{
+    text-decoration: none;
+}
+.blog-item img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.blog-item .primary-btn{
+    background-color: none;
+}
+
+.more-blogs{
+    width: 100%;
+}
+
+.more-blogs button{
+    margin: 50px auto 0;
+}
 /* =============== Footer Styles =================*/
 
 /* Subscription Section Styles */
@@ -321,6 +383,7 @@
 .footer-descripttion{
     color: rgba(255, 255, 255, 0.86) !important;
     width: 550px;
+    margin: 0 auto;
 }
 
 .copyright p{
