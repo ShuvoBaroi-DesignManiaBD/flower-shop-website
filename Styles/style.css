@@ -353,9 +353,6 @@
 
 }
 
-.subscription-form input[type="email"]:focus{
-    border: none;
-}
 
 /* Footer Area Styles */
 .footer-area{
