@@ -49,3 +49,9 @@
     line-height: 30px;
 }
 
+/* Button styles */
+
+.primary-btn{
+    background-color: #E55473;
+    color: #fff;  
+}
