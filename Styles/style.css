@@ -297,3 +297,33 @@
 .subscription-form input[type="email"]:focus{
     border: none;
 }
+
+/* Footer Area Styles */
+.footer-area{
+    background-color: #111010;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    text-align: center;
+    padding: 100px 0 0;
+}
+
+.footer-area h2{
+    font-size: 48px;
+}
+
+.footer-area span{
+    color: #E55473;
+}
+
+.footer-descripttion{
+    color: rgba(255, 255, 255, 0.86) !important;
+    width: 550px;
+}
+
+.copyright p{
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.556);
+}
