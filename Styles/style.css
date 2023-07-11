@@ -73,7 +73,7 @@
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
-    max-height: 500px;
+    height: 600px;
 }
 .left-col{
     width: 50%;
@@ -197,7 +197,7 @@
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .offer-wrap > .left-col{
