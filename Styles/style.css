@@ -71,7 +71,7 @@
 .hero-wrap{
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
     height: 600px;
 }
@@ -221,7 +221,7 @@
 /* Instagram Reel Section Styles */
 
 .instagram-reel{
-    max-width: 1200px;
+    width: 1200px;
     margin: 100px auto;
     text-align: center;
     /* display: flex;
@@ -238,7 +238,62 @@
 }
 
 .instagram-images{
+    width: 1200px;
     display: flex;
     gap: 20px;
     justify-content: center;
+}
+
+.instagram-images img{
+    width: 290px;
+    border-radius: 8px;
+}
+
+/* =============== Footer Styles =================*/
+
+/* Subscription Section Styles */
+
+.subscription{
+    padding: 100px 0;
+}
+
+.subscription-wrap{
+    width: 1200px;
+    background-image: url("../Flower Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 16px;
+
+}
+
+.subscription-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.subscription-form input[type="email"] {
+    width: 500px;
+    border:none;
+    border-radius: 10px;
+    height: 60px;
+}
+.subscription-form .primary-btn {
+    margin-top: 0 !important;
+    padding: 18px 40px;
+
+}
+
+.subscription-form input[type="email"]:focus{
+    border: none;
 }
